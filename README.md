@@ -15,6 +15,8 @@ The Sales MIS Dashboard is a Python-based web application that provides small bu
   2. Install the required Python libraries by running the following command:
       <code>pip install -r requirements.txt</code>
   3. Import the mock data into the MySQL database:
+   #
+     python generate_mock_data.py
   4. Create a new database named my_sales in your MySQL server.
   5. Import the sales.csv and products.csv files located in the data directory into the my_sales database. These files contain sample data to populate the sales and products tables respectively.
 
