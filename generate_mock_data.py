@@ -75,7 +75,7 @@ mydb = mysql.connector.connect(
   host="localhost",
   user="root",
   password="root",
-  database="test"
+  database="my_sales"
 )
 
 # Create the sales and products tables if they don't exist
